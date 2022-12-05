@@ -32,8 +32,7 @@
 		</dependency>
 
 	</dependencies>
-
-	<build>
+<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -47,5 +46,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
 </project>
