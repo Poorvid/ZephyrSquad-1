@@ -16,7 +16,7 @@ set "$zephyrBaseUrl=https://prod-api.zephyr4jiracloud.com/connect"
 :: =========================================
 :: The accessKey and secretKey to access your project. You can find them in your Jira project: Zephyr > API Keys.
 set "$accessKey=OTMwNDlhNDctMGM4ZS0zYTdkLTg2MDUtNDMyN2E4YTIwNzk0IDVlZWIzNzE2NDc4NDUxMGFjYTc2Y2E2MSBVU0VSX0RFRkFVTFRfTkFNRQ"
-set "$secretKey=OOWmVdXXW3aGuOOpXR_53OLnDh6hNloOsGjYbofYejo"
+set "$secretKey=NKKPhVzTBgUtHAUSTqABJIllxshdxckaFPWH8r65xhk"
 :: Id of the user who will create the automation task. You can find it in Jira.
 set "$accountId=5eeb37164784510aca76ca61"
 
@@ -53,7 +53,7 @@ set "$appendDateTimeInFolderName=true"
 set "$assigneeUser=5eeb37164784510aca76ca61"
 
 :: Fully-qualitified name of the test result file
-set "$resultPath=@\".\test-output\testng-results.xml"
+set "$resultPath=@\".\test-output\testng-results.xml\"
 
 :: =========================================
 ::  Create an automation task, run it, send test results to Zephyr.

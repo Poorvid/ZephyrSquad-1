@@ -5,6 +5,7 @@
     <classes>
       <class name="zephyrsquad.jenkins.secondTest">
         <methods>
+          <include name="testing"/>
           <include name="steup"/>
           <include name="close"/>
           <include name="secondtest"/>
