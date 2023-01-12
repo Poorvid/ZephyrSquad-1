@@ -16,7 +16,7 @@ public class secondTest {
 	WebDriver driver;
 
 	@BeforeTest
-	void steup() {
+	public void start() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 	}
@@ -46,7 +46,7 @@ public class secondTest {
 	}
 
 	@AfterTest
-	public void close() {
+	public void end() {
 
 		driver.close();
 	}
