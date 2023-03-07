@@ -38,7 +38,7 @@ echo %$finaljwt%
 set "$taskName=AutomationTask_1"
 set "$taskDescription=AutomationTask_1"
 set "$automationFramework=TestNG"
-set "$projectKey=ZS2"
+set "$projectKey=SAM3"
 set "$versionName=Version-1.0"
 
 :: Cycle info
